@@ -118,6 +118,12 @@ Linked-data contexts for the provider's vocabulary.
 
 - [Oruk Ai Context](https://apis.io/jsonld/oruk-ai/oruk-ai-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Oruk Openapi Overlay](https://apis.io/overlays/oruk-ai/oruk-ai-openapi-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -159,18 +165,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 61.8** — strong · rubric 0.27.0 · scored 2026-11-16
+**Kin Score 62.9** — strong · rubric 0.28.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 59.4 |
+| Discoverability | 75.0 |
+| Contract quality | 64.3 |
 | Contract governance | 22.0 |
-| Operational transparency | 47.4 |
+| Operational transparency | 42.9 |
 | Developer ergonomics | 56.4 |
-| Access clarity | 92.1 |
+| Access clarity | 89.4 |
 
-**Agent readiness 31.2** — agent-ready
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -179,9 +185,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
-| Idempotency | — |
-| Error Semantics | derived (partial credit) |
-| OpenAPI Examples | — |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
 | Agent Skills | unknown |
