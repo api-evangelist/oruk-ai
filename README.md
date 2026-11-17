@@ -1,4 +1,4 @@
-# oruk-ai
+# Oruk
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -68,13 +68,12 @@ Oruk AI provides speech understanding APIs that enable transcription and vocal d
 
 **Areas:** Company · Speech · AI · Transcription · Voice
 
-## oruk-ai on APIs.io
+## Oruk on APIs.io
 
-Everything profiled for oruk-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oruk-ai/](https://apis.io/providers/oruk-ai/)** — or go straight to one of the APIs or properties below.
+Everything profiled for Oruk is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oruk-ai/](https://apis.io/providers/oruk-ai/)** — or go straight to one of the APIs or properties below.
 
-### APIs (9)
+### APIs (8)
 
-- [Speech API](https://apis.io/apis/oruk-ai/speech-api/) — oruk Speech API providing transcription, emotion detection, speaking style analysis, and proficiency scoring.
 - [oruk-ai Affect API](https://apis.io/apis/oruk-ai/oruk-ai-affect-api/) — The Affect API from oruk-ai — 2 operation(s) for affect.
 - [oruk-ai Audio API](https://apis.io/apis/oruk-ai/oruk-ai-audio-api/) — The Audio API from oruk-ai — 8 operation(s) for audio.
 - [oruk-ai Client Token API](https://apis.io/apis/oruk-ai/oruk-ai-client-token-api/) — The Client Token API from oruk-ai — 1 operation(s) for client token.
@@ -88,11 +87,30 @@ Everything profiled for oruk-ai is published on APIs.io rather than in this repo
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [oruk-ai-mcp.yml](https://apis.io/servers/oruk-ai/oruk-ai-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Oruk Ai Agentic Access](https://apis.io/agentic-access/oruk-ai/oruk-ai-agentic-access/)
+- [Oruk Agentic Access](https://apis.io/agentic-access/oruk-ai/oruk-ai-agentic-access/)
+
+#### JSON Schema (8)
+
+The data models the API reads and writes.
+
+- [OrukeetRequest](https://apis.io/schemas/oruk-ai/oruk-ai-orukeet-request/)
+- [OrukeetTranscription](https://apis.io/schemas/oruk-ai/oruk-ai-orukeet-transcription/)
+- [Resonance2SidecarResponse](https://apis.io/schemas/oruk-ai/oruk-ai-resonance2-sidecar-response/)
+- [Spectra2PreparedSession](https://apis.io/schemas/oruk-ai/oruk-ai-spectra2-prepared-session/)
+- [Spectra2Result](https://apis.io/schemas/oruk-ai/oruk-ai-spectra2-result/)
+- [Spectra2StreamSession](https://apis.io/schemas/oruk-ai/oruk-ai-spectra2-stream-session/)
+- [SpeechResult](https://apis.io/schemas/oruk-ai/oruk-ai-speech-result/)
+- [DetectionResponse](https://apis.io/schemas/oruk-ai/oruk-ai-synthetic-speech-detection-response/)
 
 #### JSON-LD (1)
 
@@ -104,22 +122,22 @@ Linked-data contexts for the provider's vocabulary.
 
 Spectral rulesets for the provider's contracts.
 
-- [oruk-ai API Rules](https://apis.io/rules/oruk-ai/oruk-ai-rules/)
+- [Oruk API Rules](https://apis.io/rules/oruk-ai/oruk-ai-rules/)
 
 #### Security (4)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Oruk Ai Authentication](https://apis.io/security/oruk-ai/oruk-ai-authentication/)
-- [Oruk Ai Domain Security](https://apis.io/security/oruk-ai/oruk-ai-domain-security/)
-- [Oruk Ai Trust Center](https://apis.io/security/oruk-ai/oruk-ai-trust-center/)
-- [Oruk Ai Vulnerability Disclosure](https://apis.io/security/oruk-ai/oruk-ai-vulnerability-disclosure/)
+- [Oruk Authentication](https://apis.io/security/oruk-ai/oruk-ai-authentication/)
+- [Oruk Domain Security](https://apis.io/security/oruk-ai/oruk-ai-domain-security/)
+- [Oruk Trust Center](https://apis.io/security/oruk-ai/oruk-ai-trust-center/)
+- [Oruk Vulnerability Disclosure](https://apis.io/security/oruk-ai/oruk-ai-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Oruk Ai Plans Pricing](https://apis.io/plans/oruk-ai/oruk-ai-plans-pricing/)
+- [Oruk Plans Pricing](https://apis.io/plans/oruk-ai/oruk-ai-plans-pricing/)
 
 ## Where to find this API
 
@@ -141,23 +159,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 65.6** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 61.8** — strong · rubric 0.27.0 · scored 2026-11-16
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 50.2 |
-| Contract governance | 79.1 |
+| Contract quality | 59.4 |
+| Contract governance | 22.0 |
 | Operational transparency | 47.4 |
-| Developer ergonomics | 52.4 |
-| Access clarity | 88.9 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 92.1 |
 
-**Agent readiness 32.3** — agent-ready
+**Agent readiness 31.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -166,7 +184,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -177,6 +195,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
 
@@ -186,7 +205,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for oruk-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Oruk: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
